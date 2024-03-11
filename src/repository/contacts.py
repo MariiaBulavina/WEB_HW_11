@@ -1,6 +1,5 @@
-from typing import List
 from datetime import datetime, timedelta
-from collections import defaultdict
+from typing import List
 
 from sqlalchemy import and_, or_, extract
 from sqlalchemy.orm import Session
